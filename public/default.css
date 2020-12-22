@@ -1,0 +1,101 @@
+body{
+	background: #312E2B;
+	display: flex;
+}
+
+#loginForm{
+}
+
+#wapper{
+	margin: auto;
+	width: 100%;
+}
+
+#game{
+	display: flex;
+	margin: auto;
+	width: 60%;
+	padding: 10px;
+}
+
+#formGame{
+	display: block;
+	margin-top: 20px;
+}
+
+#gameBoard{
+	margin: auto;
+	width: 600px;
+	padding: 10px;
+}
+
+.formNguoiChoi{
+	display:flexbox;
+	height: 50px;
+	color: white;
+	align-items: center;
+}
+
+.nguoiChoi{
+	display: flex;
+	float: left;
+	vertical-align: middle;
+	padding: 10px;
+	background-color: #769656;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+.thoiGian{
+	float: right;
+	vertical-align: middle;
+	padding: 10px;
+	background-color: #EEEED2;
+	color: #565352;
+	border-radius: 5px;
+	margin: 10px 15px 10px 10px ;
+}
+
+#formRight{
+	width: 300px;
+}
+
+.textForm{
+	background:#769656;
+	text-align: center;
+	color: #EEEED2;
+	margin: auto;
+	padding: 10px;	
+}
+
+#history{
+	margin-top: 30px;
+	height: 41%;
+}
+
+#listHistory{
+	background-color:#F1F1F1;
+	height: 100%;
+}
+
+#chatForm{
+	margin-top: 10px;
+	height: 41%;
+}
+
+#listMessages{
+	background-color:#F1F1F1; 
+	height: 100%;
+}
+
+#txtMessage{
+	margin-top: 5px;
+	margin-right: 5px;
+	background-color:#F1F1F1; 
+	width: 75%;
+}
+
+#btnSendMessage {
+	width: 20%;
+	margin: auto;
+}
