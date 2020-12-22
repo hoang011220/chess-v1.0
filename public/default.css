@@ -114,6 +114,11 @@ body{
 }
 
 #btnSendMessage {
-	width: 20%;
-	margin: auto;
+	float: right;
+	width:70px;
+	margin-top: 5px;
+	height: 42px;
+	border-radius: 10px;
+	background-color: #769656;
+	color:#EEEED2;
 }
