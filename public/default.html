@@ -13,22 +13,17 @@
 <body>
 	<div id="wapper">
 		<div id="loginForm">
-			<!-- <h3 style="color: white"> What's your name?</h3>
-			<input type="text" id="txtUsername">
-			<input type="button" value="Register" id="btnRegister"> -->
 			<div class="navbar">
 				<a onclick="document.getElementById('myDropdown').classList.toggle('show')" class="dropbtn"><i class="fa fa-bars"></i> Menu</a> 
 				<a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto; "><i class="fa fa-fw fa-unlock"></i> Login</a>
-			</div>
-		
+			</div>		
 			<div class="dropdown">
 			<div id="myDropdown" class="dropdown-content">
-				<a href="#playOnline">Play online</a>
-				<a href="#playWcomputer">Play with computer</a>
-				<a href="#leaderboard">Leaderboard</a>
-				<a href="#setting">Setting</a>
-				<a href="#credit">Credit</a>
-				<a href="#profile">Profile</a>
+				<a href="./default.html">Play online</a>
+				<a href="./default.html">Play with computer</a>
+				<a href="./leaderboard.html">Leaderboard</a>
+				<a href="./credit.html">Credit</a>
+				<a href="./userProfile.html">Profile</a>
 				<a href="#logOut">Logout</a>
 			</div>
 			</div>
@@ -57,7 +52,31 @@
 				<span class="psw">Forgot <a href="#">password?</a></span>
 				</div>
 			</form>
-			</div>			
+			</div>	
+			<script>
+				// Get the modal
+				var login = document.getElementById('id01');
+			
+				// When the user clicks anywhere outside of the modal, close it
+				window.onclick = function(event) {
+					switch(event.target){
+					  case login :
+						login.style.display = "none";
+						break;
+					}  
+					if (!event.target.matches('.dropbtn')) {
+					  var dropdowns = document.getElementsByClassName("dropdown-content");
+					  var i;
+					  for (i = 0; i < dropdowns.length; i++) {
+						var openDropdown = dropdowns[i];
+						if (openDropdown.classList.contains('show')) {
+						  openDropdown.classList.remove('show');
+						}
+					  }
+					} 
+				}
+			
+			</script>		
 		</div>
 		<div id="game">
 			<div id="formGame">
@@ -91,29 +110,5 @@
 	<script src="./history.js"></script>
 	<script src="./chat.js"></script>
 	<script src="./default.js"></script>
-	<script>
-		// Get the modal
-		var login = document.getElementById('id01');
-	
-		// When the user clicks anywhere outside of the modal, close it
-		window.onclick = function(event) {
-			switch(event.target){
-			  case login :
-				login.style.display = "none";
-				break;
-			}  
-			if (!event.target.matches('.dropbtn')) {
-			  var dropdowns = document.getElementsByClassName("dropdown-content");
-			  var i;
-			  for (i = 0; i < dropdowns.length; i++) {
-				var openDropdown = dropdowns[i];
-				if (openDropdown.classList.contains('show')) {
-				  openDropdown.classList.remove('show');
-				}
-			  }
-			} 
-		}
-	
-	  </script>
 </body>
 </html>
