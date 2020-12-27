@@ -1,0 +1,71 @@
+body {
+	background-color: rgba(49,46,43,1);
+}
+#melon_cube_by_seerlight_dcbwzf {
+	position: fixed;
+	width: 219px;
+	height: 219px;
+	left: 223px;
+	top: 241px;
+	overflow: visible;
+}
+#Man_Minh_Thao {
+	left: 475px;
+	top: 305px;
+	position: fixed;
+	overflow: visible;
+	width: 350px;
+	height: 67px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(238,238,210,1);
+}
+#User_ID_0609 {
+	left: 475px;
+	top: 372px;
+	position: fixed;
+	overflow: visible;
+	width: 177px;
+	height: 40px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(238,238,210,1);
+}
+#Ranked_1 {
+	left: 475px;
+	top: 412px;
+	position: fixed;
+	overflow: visible;
+	width: 142px;
+	height: 40px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(238,238,210,1);
+}
+#History {
+	left: 223px;
+	top: 525px;
+	position: fixed;
+	overflow: visible;
+	width: 158px;
+	height: 67px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(238,238,210,1);
+}
